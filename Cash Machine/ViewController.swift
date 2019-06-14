@@ -10,14 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // MARK: variables
+    
+    var userBalance = 0.0
 
     // MARK: Outlets
     
     @IBOutlet weak var cashLabel: UILabel!
     
+    @IBOutlet weak var amountLabel: UILabel!
+    
     @IBOutlet weak var WithdrawalButton: UIButton!
     @IBOutlet weak var DepositButton: UIButton!
     @IBOutlet weak var ChangePinButton: UIButton!
+    @IBOutlet weak var checkBalanceButton: UIButton!
     
     
     // MARK: Actions
@@ -35,8 +41,13 @@ class ViewController: UIViewController {
         print("You have changed your pin successfully.")
         
     }
-
     
+    @IBAction func checkBalanceFunction(_ sender: Any) {
+        print("Your balance is: £\(userBalance)")
+        
+    }
+
+    // MARK: Things to load functions
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,6 +58,8 @@ class ViewController: UIViewController {
     func thingsToLoad() {
         cashLabel.text = "Cash Machine"
         cashLabel.textAlignment = .center
+        
+        amountLabel.text = "Your balance is: £\(userBalance)"
     }
 
 
