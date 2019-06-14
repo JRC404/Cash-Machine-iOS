@@ -14,6 +14,8 @@
 		161F513122B3A246005FCA32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161F512F22B3A246005FCA32 /* LaunchScreen.storyboard */; };
 		161F513C22B3A246005FCA32 /* Cash_MachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161F513B22B3A246005FCA32 /* Cash_MachineTests.swift */; };
 		161F514722B3A246005FCA32 /* Cash_MachineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161F514622B3A246005FCA32 /* Cash_MachineUITests.swift */; };
+		161F515522B3D9FB005FCA32 /* WithdrawlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161F515422B3D9FB005FCA32 /* WithdrawlViewController.swift */; };
+		161F515722B3DC53005FCA32 /* globalUses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161F515622B3DC53005FCA32 /* globalUses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		161F514222B3A246005FCA32 /* Cash MachineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cash MachineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		161F514622B3A246005FCA32 /* Cash_MachineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cash_MachineUITests.swift; sourceTree = "<group>"; };
 		161F514822B3A246005FCA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		161F515422B3D9FB005FCA32 /* WithdrawlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawlViewController.swift; sourceTree = "<group>"; };
+		161F515622B3DC53005FCA32 /* globalUses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalUses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 			children = (
 				161F512622B3A243005FCA32 /* AppDelegate.swift */,
 				161F512822B3A243005FCA32 /* ViewController.swift */,
+				161F515422B3D9FB005FCA32 /* WithdrawlViewController.swift */,
 				161F512A22B3A243005FCA32 /* Main.storyboard */,
 				161F512D22B3A246005FCA32 /* Assets.xcassets */,
 				161F512F22B3A246005FCA32 /* LaunchScreen.storyboard */,
 				161F513222B3A246005FCA32 /* Info.plist */,
+				161F515622B3DC53005FCA32 /* globalUses.swift */,
 			);
 			path = "Cash Machine";
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				161F515722B3DC53005FCA32 /* globalUses.swift in Sources */,
 				161F512922B3A243005FCA32 /* ViewController.swift in Sources */,
 				161F512722B3A243005FCA32 /* AppDelegate.swift in Sources */,
+				161F515522B3D9FB005FCA32 /* WithdrawlViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

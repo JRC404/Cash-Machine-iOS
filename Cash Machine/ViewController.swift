@@ -12,7 +12,8 @@ class ViewController: UIViewController {
     
     // MARK: variables
     
-    var userBalance = 0.0
+//    var userBalance = 1000.0
+//    let maxDailyWithdrawl = 250.0
 
     // MARK: Outlets
     
@@ -43,7 +44,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func checkBalanceFunction(_ sender: Any) {
-        print("Your balance is: £\(userBalance)")
+        print("Your balance is: £\(global.userBalance)")
         // displaying user balance to be sorted first.
     }
 
@@ -59,7 +60,7 @@ class ViewController: UIViewController {
         cashLabel.text = "Cash Machine"
         cashLabel.textAlignment = .center
         
-        amountLabel.text = "Your balance is: £\(userBalance)"
+        amountLabel.text = "Your balance is: £\(global.userBalance)"
     }
 
 
