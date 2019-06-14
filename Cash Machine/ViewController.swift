@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     
     @IBAction func checkBalanceFunction(_ sender: Any) {
         print("Your balance is: £\(userBalance)")
-        
+        // displaying user balance to be sorted first.
     }
 
     // MARK: Things to load functions
